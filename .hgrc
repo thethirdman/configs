@@ -1,0 +1,10 @@
+[trusted]
+users = *
+
+[ui]
+username = The third man <blackfr666@gmail.com>
+verbose = true
+
+[merge-tools]
+vimdiff.binary = vimdiff
+vimdiff.args = $local $other

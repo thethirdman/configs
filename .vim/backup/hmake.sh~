@@ -1,0 +1,8 @@
+#!/bin/bash
+touch $1
+name=`echo $1 | tr "[[:lower:]]" "[[:upper:]]" | tr "[[:punct:]]" "_"`
+name=${name}"_"
+echo "#ifndef " ${name} >> $1
+echo "# define " ${name} >> $1
+echo -e "\n\n\n" >> $1
+echo "#endif /* !" ${name} " */" >> $1

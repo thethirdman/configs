@@ -1,0 +1,33 @@
+
+To install and use this plugin:
+
+ - Set the EMAIL environment to your email address, e.g., 
+   export EMAIL="John Doe <jdoe@foo.com>".  This is the user name
+   that will be included in the changelog entry.
+
+ - Copy plugin/gnuchlog.vim to your ~/.vim/plugin dir.
+
+ - Copy ftplugin/changelog.vim to your ~/.vim/ftplugin dir.  This
+   overrides the changelog.vim included by default in vim.
+
+ - Make sure you have "filetype plugin on" in your .vimrc
+
+If you want to auto-include class/method/function name in the
+ChangeLog entry using the pythonhelper.py plugin:
+   
+ - Copy plugin/pythonhelper.vim to your ~/.vim/plugin dir if you don't
+   have it already, which will give you this info in the status
+   line all by itself.
+   
+ - Copy the ftplugin/python_gnuchlog.vim script to your ~/.vim/ftplugin
+   dir to make the gnuchlog.vim plugin use the pythonhelper.vim info
+   to get the class/method/name.
+
+ - You can override the statusline setting to your liking by adding a
+   'set stl' command to ~/.vim/after/plugin/pythonhelper.vim.  See
+   ':help statusline' for info on how to configure the status line.
+   For example:
+
+   set stl=%-f%r\ %2*%m%*%h%w\ %1*%{TagInStatusLine()}%*%=%l,%c%V
+
+

@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/amd/nfs/volume1/home/stage/ripault/Prog/tex/rapport_2012'
+let g:netrw_dirhist_2='/amd/nfs/volume1/home/stage/ripault/Prog/climb/src/accu'
