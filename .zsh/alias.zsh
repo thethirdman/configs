@@ -34,3 +34,4 @@ alias     cpuu='ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10'
 alias memusage='ps -e -orss=,args= | sort -b -k1,1n|pr -TW$COLUMNS'
 
 alias sbcl='rlwrap sbcl'
+alais ocaml='rlwrap ocaml'
