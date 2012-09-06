@@ -136,7 +136,7 @@ set statusline+=\ %P    "percent through file
 vnoremap < <gv
 vnoremap > >gv
 
-" Special chars highlight
+" Special chars highlight : DO NOT REMOVE TRAILING WHITESPACE
 set list!
-set listchars=nbsp:·
+set listchars=nbsp:·,tab:\ \ 
 
