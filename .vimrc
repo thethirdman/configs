@@ -135,3 +135,8 @@ set statusline+=\ %P    "percent through file
 " Reselect visual block after indent
 vnoremap < <gv
 vnoremap > >gv
+
+" Special chars highlight
+set list!
+set listchars=nbsp:·
+
