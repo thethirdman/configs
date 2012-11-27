@@ -1,6 +1,6 @@
 # Zsh file extensions aliases
 
-for vim in .c .h .cc .hh .cpp .txt; do
+for vim in c h cc hh cpp txt; do
   alias -s $vim=vim;
 done;
 
@@ -13,4 +13,4 @@ done;
 # alias -s v   ='coqtop -l'
 # not working sbcl right now
 # alias -s lisp='sbcl --load'
-# alias -s tex ='pdflatex'
+alias -s tex ='pdflatex'

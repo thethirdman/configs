@@ -37,9 +37,20 @@ export PATH="$( echo \
   $HOME/usr/bin:\
   $HOME/sbcl/bin:\
   $HOME/acl:\
-  $HOME/Tools/usr/local/bin:\
+  $HOME/Prog/coq/trunk/bin:\
+  /opt/intel/composer_xe_2013.1.117/bin/intel64:\
+  /opt/intel/composer_xe_2013.1.117/bin/intel64_mic:\
+  /opt/intel/composer_xe_2013.1.117/debugger/gui/intel64:\
+  /opt/intel/composer_xe_2013.1.117/mpirt/bin/intel64:\
+  /opt/intel/inspector_xe_2013/bin64:\
   | perl -pe 's/\s+//g'
 )"
+# if [ $HOST = 'floreal' ]; then
+#   #FIXME $HOME/Tools/usr/local/bin:\
+# elif [ $HOST = 'papyrus' ]; then
+#   export PATH =${PATH}:~/Prog/coq_trunk/bin:;
+# fi
+
 export MANPATH=$MANPATH:/usr/local/man:/opt/local/share/man:$HOME/Tools/share/man
 #}}}
 # zsh                                                                        {{{

@@ -23,3 +23,4 @@ fpath=(~/etc/zsh/compdef $fpath)
 
 #compdef _files mkdir
 #compdef _gnu_generic ln
+set -o emacs
