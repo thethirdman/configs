@@ -140,3 +140,5 @@ vnoremap > >gv
 set list!
 set listchars=nbsp:·,tab:\ \ 
 
+" Powerline
+let g:Powerline_Symbols='fancy'
