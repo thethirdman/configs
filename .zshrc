@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-export REPO="configs-git"
+export REPO="configs"
 export ZSH_DIR=${HOME}/${REPO}/.zsh
 export ZSH_THEME=trapd00r
 export LS_COLORS=${ZSH_DIR}/LS_COLORS/
@@ -23,3 +23,4 @@ fpath=(~/etc/zsh/compdef $fpath)
 
 #compdef _files mkdir
 #compdef _gnu_generic ln
+set -o emacs

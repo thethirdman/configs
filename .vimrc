@@ -135,3 +135,10 @@ set statusline+=\ %P    "percent through file
 " Reselect visual block after indent
 vnoremap < <gv
 vnoremap > >gv
+
+" Special chars highlight : DO NOT REMOVE TRAILING WHITESPACE
+set list!
+set listchars=nbsp:·,tab:\ \ 
+
+" Powerline
+let g:Powerline_Symbols='fancy'
