@@ -1,16 +1,19 @@
 "    The_third_man's .vimrc !    "
-" tronlol test
-" Pathogen Call
+
+" Vundle call
+set nocompatible
 filetype off
-call pathogen#runtime_append_all_bundles()
-filetype  plugin indent on
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+source ~/.vim/.bundlerc
+filetype on
 
 " Basic Stuff
-set nocompatible
 set cf
 set autochdir
-set directory=~/.vim/temp
-set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
+set backupdir=~/.vim/tmp
 set fileformats=unix,dos,mac
 set modelines=0
 set encoding=utf-8
@@ -30,9 +33,9 @@ set number
 syn on
 
 " Waiting for the version to be up to date "
-set relativenumber"
-set undofile"
-set undodir=~/.vim/undo"
+set relativenumber
+set undofile
+set undodir=~/.vim/tmp
 " Tabs
 set expandtab
 set shiftwidth=2
@@ -141,4 +144,5 @@ set list!
 set listchars=nbsp:·,tab:\ \ 
 
 " Powerline
+set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 let g:Powerline_Symbols='fancy'

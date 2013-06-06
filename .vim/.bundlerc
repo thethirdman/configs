@@ -1,0 +1,7 @@
+Bundle 'gmarik/vundle'
+
+Bundle 'tomasr/molokai'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'Lokaltog/powerline'
+Bundle 'tpope/vim-fugitive'
+Bundle 'kien/ctrlp.vim'

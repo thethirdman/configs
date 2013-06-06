@@ -1,4 +1,3 @@
-.vim/undo/*
-.vim/temp/*
+.vim/tmp/*
 .vim/.netrwhist
 .znc/users/*

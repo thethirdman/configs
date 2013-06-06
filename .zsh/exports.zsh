@@ -14,44 +14,16 @@ export PAGER="most"
 #}}}
 # PATH                                                                       {{{
 export PATH="$( echo \
-  $HOME/Tools/bin:\
-  $HOME/etc/bin:\
-  $HOME/dev/utils:\
-  $HOME/bin:\
+  $HOME/tools/bin:\
   /bin:\
   /usr/bin:\
   /usr/local/bin:\
-  /usr/bin/site_perl:\
-  /usr/bin/core_perl:\
-  /usr/bin/vendor_perl:\
-  /usr/lib/perl5/site_perl/bin:\
-  /usr/lib/perl5/vendor_perl/bin:\
-  /usr/lib/perl5/core_perl/bin:\
   /sbin:\
   /usr/sbin:\
-  /usr/bin/perlbin/site:\
-  /usr/bin/perlbin/vendor:\
-  /usr/bin/perlbin/core:\
-  /home/scp1/perl5/perlbrew/perls/perl-5.8.3/:\
-  $HOME/go/bin:\
-  $HOME/usr/bin:\
-  $HOME/sbcl/bin:\
-  $HOME/acl:\
-  $HOME/Prog/coq/trunk/bin:\
-  /opt/intel/composer_xe_2013.1.117/bin/intel64:\
-  /opt/intel/composer_xe_2013.1.117/bin/intel64_mic:\
-  /opt/intel/composer_xe_2013.1.117/debugger/gui/intel64:\
-  /opt/intel/composer_xe_2013.1.117/mpirt/bin/intel64:\
-  /opt/intel/inspector_xe_2013/bin64:\
   | perl -pe 's/\s+//g'
 )"
-# if [ $HOST = 'floreal' ]; then
-#   #FIXME $HOME/Tools/usr/local/bin:\
-# elif [ $HOST = 'papyrus' ]; then
-#   export PATH =${PATH}:~/Prog/coq_trunk/bin:;
-# fi
 
-export MANPATH=$MANPATH:/usr/local/man:/opt/local/share/man:$HOME/Tools/share/man
+export MANPATH=$MANPATH:/usr/local/man:/opt/local/share/man:$HOME/tools/share/man
 #}}}
 # zsh                                                                        {{{
 export ZSH_ACTIVE_COMPLETIONS="$( echo ${(kv)_comps[@]} )"
@@ -63,10 +35,6 @@ export HISTFILE="$HOME/.zshistory"
 export HISTIGNORE="&:ls:[bf]g:exit:reset:clear:cd*"
 export HISTSIZE=5000
 export SAVEHIST=1000000
-
-#SBCL EXPORTS
-export SBCL_HOME=~/sbcl/lib/sbcl
-
 
 #part python variable for user's installed python libraries
 export PYTHONPATH=~/usr/lib/python2.4/site-packages:${PYTHONPATH}
