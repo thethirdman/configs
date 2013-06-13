@@ -29,3 +29,5 @@ alias ocaml='rlwrap ocaml'
 alias coqtop='rlwrap coqtop'
 
 alias firefox=chromium-browser
+
+alias ls='ls --color=always'

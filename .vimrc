@@ -11,7 +11,7 @@ filetype on
 
 " Basic Stuff
 set cf
-set autochdir
+"set autochdir
 set directory=~/.vim/tmp
 set backupdir=~/.vim/tmp
 set fileformats=unix,dos,mac
@@ -118,14 +118,6 @@ function s:Template(argument)
   endif
 endfunction
 
-" Status line
-augroup ft_statuslinecolor
-    au!
-
-    au InsertEnter * hi StatusLine ctermfg=22 guifg=#FF3145
-    au InsertLeave * hi StatusLine ctermfg=238 ctermbg=253
-augroup END
-
 set statusline=%t       "tail of the filename
 set statusline+=%m      "modified flag
 set statusline+=%r      "read only flag
@@ -146,3 +138,9 @@ set listchars=nbsp:·,tab:\ \
 " Powerline
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 let g:Powerline_Symbols='fancy'
+
+" Rainbow parens
+au VimEnter * RainbowParenthesesToggle
+au Syntax *   RainbowParenthesesLoadRound
+" au Syntax *   RainbowParenthesesLoadSquare
+" au Syntax *   RainbowParenthesesLoadBraces
