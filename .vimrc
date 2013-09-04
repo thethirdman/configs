@@ -135,9 +135,9 @@ vnoremap > >gv
 set list!
 set listchars=nbsp:·,tab:\ \ 
 
-" Powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
-let g:Powerline_Symbols='fancy'
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme= 'powerlineish'
 
 " Rainbow parens
 au VimEnter * RainbowParenthesesToggle
