@@ -7,11 +7,11 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 source ~/.vim/.bundlerc
-filetype on
+filetype plugin indent on
 
 " Basic Stuff
 set cf
-"set autochdir
+set autochdir
 set directory=~/.vim/tmp
 set backupdir=~/.vim/tmp
 set fileformats=unix,dos,mac
