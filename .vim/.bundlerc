@@ -1,10 +1,10 @@
 
-Bundle 'Lokaltog/powerline'
+Bundle 'bling/vim-airline'
 Bundle 'Lokaltog/vim-easymotion'
-Bundle 'Shougo/vimproc'
-Bundle 'Shougo/vimshell'
 Bundle 'gmarik/vundle'
-Bundle 'kien/ctrlp.vim'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'tomasr/molokai'
-Bundle 'tpope/vim-fugitive'
+
+Bundle 'def-lkb/merlin', {'rtp' : 'vim/'}
+
+Bundle 'wting/rust.vim'
