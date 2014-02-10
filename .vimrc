@@ -32,6 +32,9 @@ set laststatus=2
 set number
 syn on
 
+"faster Shift+O
+set timeout timeoutlen=5000 ttimeoutlen=100
+
 " Waiting for the version to be up to date "
 set relativenumber
 set undofile
