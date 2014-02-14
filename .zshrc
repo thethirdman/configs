@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-export REPO="configs-git"
+export REPO="configs"
 export ZSH_DIR=${HOME}/${REPO}/.zsh
 export ZSH_THEME=trapd00r
 for r in ${ZSH_DIR}/*.zsh; do
@@ -23,3 +23,6 @@ fpath=(~/etc/zsh/compdef $fpath)
 #compdef _files mkdir
 #compdef _gnu_generic ln
 set -o emacs
+
+# OPAM configuration
+. /Users/the_third_man/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true

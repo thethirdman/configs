@@ -27,7 +27,3 @@ alias sizeof='du -ch . | tail -n 1'
 alias latexmk='latexmk -pdf'
 alias ocaml='rlwrap ocaml'
 alias coqtop='rlwrap coqtop'
-
-alias firefox=chromium-browser
-
-alias ls='ls --color=always'

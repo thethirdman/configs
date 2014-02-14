@@ -18,6 +18,7 @@ export PATH="$( echo \
   /bin:\
   /usr/bin:\
   /usr/local/bin:\
+  /usr/texbin:\
   /sbin:\
   /usr/sbin:\
   | perl -pe 's/\s+//g'
