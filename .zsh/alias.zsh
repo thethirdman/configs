@@ -25,7 +25,7 @@ alias coqtop='rlwrap coqtop'
 
 # ls stuff
 export CLICOLOR=1
-if [ $(uname) == "Darwin" ]; then
+if [ `uname -s` = "Darwin" ]; then
   alias ls ='ls -G'
 else
   alias ls='ls --color=auto'
