@@ -22,3 +22,11 @@ alias sbcl='rlwrap sbcl'
 alias latexmk='latexmk -pdf'
 alias ocaml='rlwrap ocaml'
 alias coqtop='rlwrap coqtop'
+
+# ls stuff
+export CLICOLOR=1
+if [ $(uname) == "Darwin" ]; then
+  alias ls ='ls -G'
+else
+  alias ls='ls --color=auto'
+fi

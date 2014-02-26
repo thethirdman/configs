@@ -1,5 +1,0 @@
-Zsh:
-  - patch colors for ls
-  - git support
-  - rework the prompt
-  - take a look at completion
