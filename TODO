@@ -4,8 +4,5 @@ Zsh:
   - rework the prompt
   - take a look at completion
 
-Vim:
-  - cleanup vundle stuff
-
 Git:
   - add an alias for submodule update in order to init automagically
