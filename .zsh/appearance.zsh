@@ -1,16 +1,6 @@
 # ls colors
 autoload colors; colors;
 
-setopt multios
-setopt cdablevarS
-
-if [[ x$WINDOW != x ]]
-then
-    SCREEN_NO="%B$WINDOW%b "
-else
-    SCREEN_NO=""
-fi
-
 # Apply theming defaults
 export RPROMPT="%M"
 PS1="%n@%m:%~%# "
@@ -22,4 +12,4 @@ PS1="%n@%m:%~%# "
 #export ZSH_THEME_GIT_PROMPT_CLEAN="afaf"               # Text to display if the branch is clean
 
 # Setup the prompt with pretty colors
-setopt prompt_subst
+# setopt prompt_subst
