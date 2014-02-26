@@ -3,6 +3,3 @@ Zsh:
   - git support
   - rework the prompt
   - take a look at completion
-
-Git:
-  - add an alias for submodule update in order to init automagically

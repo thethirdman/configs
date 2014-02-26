@@ -1,15 +1,20 @@
+[alias]
+  amend = commit --amend
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+  setsub = submodule update --init --recursive
+  undo = reset --soft HEAD^
+  unstage = reset HEAD
+
 [color]
   ui = auto
-	diff = auto
-	status = auto
-	branch = auto
-[user]
-	name = Francois Ripault
-	email = francois.ripault@epita.fr
-[gui]
-	recentrepo = /lrde/home/lrde-2014/ripault/Prog/climb
-	warndetachedcommit = true
+
 [core]
-	excludesfile = ~/.gitignore_global
-[alias]
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+  editor = vim
+  excludesfile = ~/.gitignore_global
+
+[push]
+	default = simple
+
+[user]
+  name = Francois Ripault
+  email = francois.ripault@epita.fr
