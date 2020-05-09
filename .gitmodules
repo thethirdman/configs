@@ -1,0 +1,39 @@
+[submodule "vim/.vim/pack/plugins/start/molokai"]
+	path = vim/.vim/pack/plugins/start/molokai
+	url = https://github.com/tomasr/molokai
+[submodule "vim/.vim/pack/plugins/start/elm.vim"]
+	path = vim/.vim/pack/plugins/start/elm.vim
+	url = https://github.com/lambdatoast/elm.vim.git
+[submodule "vim/.vim/pack/plugins/start/vim-go"]
+	path = vim/.vim/pack/plugins/start/vim-go
+	url = https://github.com/fatih/vim-go
+[submodule "vim/.vim/pack/plugins/start/rust.vim"]
+	path = vim/.vim/pack/plugins/start/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule "vim/.vim/pack/plugins/start/elm-vim"]
+	path = vim/.vim/pack/plugins/start/elm-vim
+	url = https://github.com/elmcast/elm-vim
+[submodule "vim/.vim/pack/plugins/start/gruvbox"]
+	path = vim/.vim/pack/plugins/start/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "vim/.vim/pack/plugins/start/vim-maktaba"]
+	path = vim/.vim/pack/plugins/start/vim-maktaba
+	url = https://github.com/google/vim-maktaba
+[submodule "vim/.vim/pack/plugins/start/vim-codefmt"]
+	path = vim/.vim/pack/plugins/start/vim-codefmt
+	url = https://github.com/google/vim-codefmt
+[submodule "vim/.vim/pack/plugins/start/vim-glaive"]
+	path = vim/.vim/pack/plugins/start/vim-glaive
+	url = https://github.com/google/vim-glaive
+[submodule "vim/.vim/pack/plugins/start/ultisnips"]
+	path = vim/.vim/pack/plugins/start/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "vim/.vim/pack/plugins/start/vim-commentary"]
+	path = vim/.vim/pack/plugins/start/vim-commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "vim/.vim/pack/plugins/start/vim-svelte"]
+	path = vim/.vim/pack/plugins/start/vim-svelte
+	url = https://github.com/evanleck/vim-svelte
+[submodule "vim/.vim/pack/plugins/start/coc.nvim"]
+	path = vim/.vim/pack/plugins/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
