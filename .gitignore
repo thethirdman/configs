@@ -1,6 +1,0 @@
-.vim/tmp/*
-# Ingore all plugins except vundle
-.vim/bundle/*
-!.vim/bundle/vundle
-.vim/.netrwhist
-.znc/users/*
