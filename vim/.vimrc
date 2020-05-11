@@ -5,8 +5,8 @@ filetype plugin indent on
 " Basic Stuff
 set cf
 set autochdir
-set directory=/tmp
-set backupdir=/tmp
+set directory=/tmp/
+set backupdir=/tmp/
 set fileformats=unix,dos,mac
 set modelines=0
 set encoding=utf-8
@@ -31,7 +31,7 @@ set timeout timeoutlen=5000 ttimeoutlen=100
 " Waiting for the version to be up to date "
 set number
 set undofile
-set undodir=~/.vim/tmp
+set undodir=/tmp
 " Tabs
 set expandtab
 set shiftwidth=2
@@ -41,7 +41,7 @@ set encoding=utf8
 
 " LOOOOOOOOOOOOOOONG LINES
 set textwidth=79
-set cc=80
+set cc=85
 set formatoptions=qrnl
 set wrap
 
@@ -120,7 +120,14 @@ let g:airline_powerline_fonts = 1
 au! BufRead,BufNewFile *.markdown set filetype=mkd
 au! BufRead,BufNewFile *.md       set filetype=mkd
 
+" 7ru3 c0l0rz
+execute "set t_8f=\e[38;2;%lu;%lu;%lum"
+execute "set t_8b=\e[48;2;%lu;%lu;%lum"
 set termguicolors
+
+
+set foldmethod=syntax
+set foldlevel=42
 
 let g:rust_recommended_style=0
 let g:pymode_folding = 0
