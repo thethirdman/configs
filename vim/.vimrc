@@ -143,9 +143,9 @@ autocmd FileType c,cpp vnoremap <buffer><leader>cf :FormatLines<CR>
 autocmd FileType c,cpp nnoremap <buffer><leader>cf :FormatLines<CR>
 
 " Ultisnips
-let g:UltiSnipsUsePythonVersion = 2
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
+"let g:UltiSnipsUsePythonVersion = 2
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
 
 autocmd FileType ocaml setlocal commentstring=(*\ %s\ *)
 
