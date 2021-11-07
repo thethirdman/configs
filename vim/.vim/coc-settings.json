@@ -1,4 +1,7 @@
 {
 "svelte.plugin.css.diagnostics.enable": false,
-"svelte.plugin.typescript.diagnostics.enable": false
+"svelte.plugin.typescript.diagnostics.enable": false,
+"clangd.path":"/usr/lib/llvm-11/bin//clangd",
+"clangd.fallbackFlags":["-std=c++20"]
+"python.jediEnabled": false,
 }

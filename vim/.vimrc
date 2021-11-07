@@ -93,7 +93,7 @@ map <right> gt
 nnoremap t :tabnew<cr>
 
 " Clang-complete
-set completeopt=menu,menuone
+" set completeopt=menu,menuone
 
 set statusline=%t       "tail of the filename
 set statusline+=%m      "modified flag
@@ -129,22 +129,22 @@ set termguicolors
 set foldmethod=syntax
 set foldlevel=42
 
-let g:rust_recommended_style=0
-let g:pymode_folding = 0
+" let g:rust_recommended_style=0
+" let g:pymode_folding = 0
 
-let g:syntastic_python_exec = 'python3'
-let g:syntastic_python_flake8_exec = 'python3'
-let g:syntastic_python_checkers =  ['flake8']
+" let g:syntastic_python_exec = 'python3'
+" let g:syntastic_python_flake8_exec = 'python3'
+" let g:syntastic_python_checkers =  ['flake8']
 
 
 " codefmt
 "call glaive#Install()
-autocmd FileType c,cpp vnoremap <buffer><leader>cf :FormatLines<CR>
-autocmd FileType c,cpp nnoremap <buffer><leader>cf :FormatLines<CR>
+" autocmd FileType c,cpp vnoremap <buffer><leader>cf :FormatLines<CR>
+" autocmd FileType c,cpp nnoremap <buffer><leader>cf :FormatLines<CR>
 
 " Ultisnips
 "let g:UltiSnipsUsePythonVersion = 2
-"let g:UltiSnipsExpandTrigger="<tab>"
+" let g:UltiSnipsExpandTrigger="<tab>"
 "let g:UltiSnipsSnippetsDir = "~/.vim/UltiSnips"
 
 autocmd FileType ocaml setlocal commentstring=(*\ %s\ *)

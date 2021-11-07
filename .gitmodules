@@ -25,9 +25,6 @@
 [submodule "vim/.vim/pack/plugins/start/vim-glaive"]
 	path = vim/.vim/pack/plugins/start/vim-glaive
 	url = https://github.com/google/vim-glaive
-[submodule "vim/.vim/pack/plugins/start/ultisnips"]
-	path = vim/.vim/pack/plugins/start/ultisnips
-	url = https://github.com/SirVer/ultisnips
 [submodule "vim/.vim/pack/plugins/start/vim-commentary"]
 	path = vim/.vim/pack/plugins/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
